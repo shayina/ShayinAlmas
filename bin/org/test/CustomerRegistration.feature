@@ -13,5 +13,5 @@ Feature: To test new customer functionality
 
     Examples: 
       |customerName| gender  |DOB        |   address   | city    | state  | PIN     | phone      | email           | pass   | managerId  | managerPass |
-      |shayina     | female  |29/12/1990 |jothy nagar  | chennai | TN     | 603104  | 2234567897 | asdf@gmail.com  | qwerty | mngr154050 | zamynEs     |
+      |shayina     | female  |29/12/1990 |jothy nagar  | chennai | TN     | 603104  | 2234567897 | asdfas@gmail.com  | qwerty | mngr154050 | zamynEs     |
       

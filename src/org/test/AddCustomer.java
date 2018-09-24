@@ -17,6 +17,7 @@ public class AddCustomer {
 		    System.setProperty("webdriver.chrome.driver", "C:\\Users\\SHABANA\\Desktop\\ProjectWorkspace\\JavaCucuProject\\drivers\\chromedriver.exe");
 		     driver=new ChromeDriver();
 		     driver.get("http://demo.guru99.com/v4/");
+		     driver.manage().window().maximize();
 		}
 	@Given("^The user logged in as manager \"([^\"]*)\"and\"([^\"]*)\"$")
 	public void the_user_logged_in_as_manager_and(String managerId, String managerPass) {
